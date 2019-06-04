@@ -1,0 +1,92 @@
+/* Border box declaration 
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+    box-sizing: border-box;
+  }
+  /* inherit border-box on all elements in the universe and before and after
+   */
+  *, 
+  *:before, 
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+      font-family: Arial, Geneva, sans-serif;
+  }
+
+/*RED BLOCK*/
+div.red 
+{
+    margin-top: 60px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    padding-left:32px;
+    padding-right:32px;
+    padding-top:32px;
+    padding-bottom:32px;
+    
+    float:left;
+    clear:left;
+    color:maroon;
+    background-color: crimson;
+
+}
+
+/*GREEN BLOCK*/
+div.green 
+{
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    padding-left:32px;
+    padding-right:32px;
+    padding-top:32px;
+    padding-bottom:32px;
+
+    float:left;
+    color:green;
+    background-color: aquamarine;
+
+}
+
+/*BLUE BLOCK*/
+div.blue 
+{
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    padding-left:32px;
+    padding-right:32px;
+    padding-top:32px;
+    padding-bottom:32px;
+
+    float:left;
+    clear:left;
+    color:blue;
+    background-color: aqua;
+
+}
+
+/*YELLOW BLOCK*/
+div.yellow 
+{
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-right: 16px;
+    padding-left:32px;
+    padding-right:32px;
+    padding-top:32px;
+    padding-bottom:32px;
+
+    float:left;
+    color:coral;
+    background-color: yellow;
+
+}
+
+/* https://www.youtube.com/watch?v=xara4Z1b18I */
